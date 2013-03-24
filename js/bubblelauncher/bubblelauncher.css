@@ -1,0 +1,76 @@
+#bubblelauncher-container * {
+    margin: 0;
+    padding: 0;
+}
+
+#bubblelauncher-container {
+    display: none;
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    width: 500px;
+    margin-left: -250px;
+    background: #fff url(logo.png) no-repeat 468px 10px;
+    border-radius: 15px;
+    padding: 10px;
+    border: 10px solid rgb(102, 102, 102);
+    border: 10px solid rgba(102, 102, 102, .8);
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+    box-shadow: 0 0 10px #666;
+}
+
+#bubblelauncher-container ul {
+    list-style: none;
+}
+
+#bubblelauncher-field {
+    height: 42px;
+    width: 450px;
+}
+
+#bubblelauncher-field input {
+    font: 30px Arial, Helvetica, sans-serif;
+    border: 0;
+    width: 434px;
+    color: #333;
+    background-color: transparent;
+    padding: 4px 8px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+#bubblelauncher-field input#bubblelauncher-suggester {
+    background-color: #eee;
+    color: #aaa;
+}
+
+#bubblelauncher-results {
+    clear: both;
+    margin-top: 8px;
+    display: none;
+}
+
+#bubblelauncher-results ul li {
+    font: 16px Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid #ddd;
+    color: #000;
+}
+
+#bubblelauncher-results a {
+    color: #000;
+    display: block;
+    text-decoration: none;
+    padding: 4px;
+}
+
+#bubblelauncher-results a:hover, #bubblelauncher-results a:focus, #bubblelauncher-results li.selected a {
+    background-color: #eee;
+}
+
+#bubblelauncher-results a span.text {
+    font: 12px Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: #999;
+}

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<launcher>
+    <indexers>
+        <config>
+            <class>bubble_launcher/indexer_config</class>
+        </config>
+        <menu>
+            <class>bubble_launcher/indexer_menu</class>
+        </menu>
+        <action>
+            <class>bubble_launcher/indexer_action</class>
+        </action>
+        <product>
+            <class>bubble_launcher/indexer_product</class>
+        </product>
+        <category>
+            <class>bubble_launcher/indexer_category</class>
+        </category>
+        <customer>
+            <class>bubble_launcher/indexer_customer</class>
+        </customer>
+        <order>
+            <class>bubble_launcher/indexer_order</class>
+        </order>
+        <attribute>
+            <class>bubble_launcher/indexer_attribute</class>
+        </attribute>
+        <promo>
+            <class>bubble_launcher/indexer_promotion</class>
+        </promo>
+    </indexers>
+    <actions>
+        <clear_all>
+            <title module="bubble_launcher">Clear Magento Cache</title>
+            <text module="core">Flush Magento Cache</text>
+            <acl>system/cache</acl>
+            <action>adminhtml/bubble_launcher/clearCache</action>
+        </clear_all>
+        <clear_config>
+            <title module="bubble_launcher">Clear Config Cache</title>
+            <text module="core">System(config.xml, local.xml) and modules configuration files(config.xml).</text>
+            <acl>system/cache</acl>
+            <action>adminhtml/bubble_launcher/clearCache</action>
+            <params>
+                <type>config</type>
+            </params>
+        </clear_config>
+        <clear_layouts>
+            <title module="bubble_launcher">Clear Layouts Cache</title>
+            <text module="core">Layout building instructions.</text>
+            <acl>system/cache</acl>
+            <action>adminhtml/bubble_launcher/clearCache</action>
+            <params>
+                <type>layout</type>
+            </params>
+        </clear_layouts>
+        <clear_html_blocks>
+            <title module="bubble_launcher">Clear HTML Blocks Cache</title>
+            <text module="core">Page blocks HTML.</text>
+            <acl>system/cache</acl>
+            <action>adminhtml/bubble_launcher/clearCache</action>
+            <params>
+                <type>block_html</type>
+            </params>
+        </clear_html_blocks>
+        <clear_translations>
+            <title module="bubble_launcher">Clear Translations Cache</title>
+            <text module="core">Translation files.</text>
+            <acl>system/cache</acl>
+            <action>adminhtml/bubble_launcher/clearCache</action>
+            <params>
+                <type>translate</type>
+            </params>
+        </clear_translations>
+        <reindex_all>
+            <title module="bubble_launcher">Reindex All</title>
+            <text module="index">Index Management</text>
+            <acl>system/index</acl>
+            <action>adminhtml/bubble_launcher/reindexAll</action>
+        </reindex_all>
+    </actions>
+</launcher>

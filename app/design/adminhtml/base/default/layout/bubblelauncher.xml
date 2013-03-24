@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <default>
+        <reference name="head">
+            <action method="addItem" ifconfig="bubble_launcher/general/enable">
+                <type>js</type><name>bubblelauncher/bubblelauncher.js</name>
+            </action>
+            <action method="addItem" ifconfig="bubble_launcher/general/enable">
+                <type>js</type><name>bubblelauncher/string.score.js</name>
+            </action>
+            <action method="addItem" ifconfig="bubble_launcher/general/enable">
+                <type>js_css</type><name>bubblelauncher/bubblelauncher.css</name>
+            </action>
+            <action method="addItem" ifconfig="bubble_launcher/general/enable">
+                <type>skin_css</type><name>bubblelauncher.css</name>
+            </action>
+        </reference>
+        <reference name="before_body_end">
+            <block type="bubble_launcher/adminhtml_launcher" name="bubblelauncher" template="bubblelauncher.phtml" />
+        </reference>
+    </default>
+</layout>

@@ -1,0 +1,235 @@
+<?xml version="1.0"?>
+<config>
+    <tabs>
+        <bubble translate="label">
+            <label>Bubble</label>
+            <sort_order>1000</sort_order>
+        </bubble>
+    </tabs>
+    <sections>
+        <bubble_launcher translate="label" module="bubble_launcher">
+            <label>Bubble Launcher</label>
+            <tab>bubble</tab>
+            <sort_order>10</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <general translate="label comment">
+                    <label>General Settings</label>
+                    <sort_order>10</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>0</show_in_website>
+                    <show_in_store>0</show_in_store>
+                    <fields>
+                        <enable translate="label comment">
+                            <label>Enable Launcher</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </enable>
+                        <index_actions translate="label comment">
+                            <label>Index Actions</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                            <depends>
+                                <enable>1</enable>
+                            </depends>
+                        </index_actions>
+                        <index_config translate="label comment">
+                            <label>Index Configuration</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>30</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                            <depends>
+                                <enable>1</enable>
+                            </depends>
+                        </index_config>
+                        <index_menu translate="label comment">
+                            <label>Index Navigation Menu</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>40</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                            <depends>
+                                <enable>1</enable>
+                            </depends>
+                        </index_menu>
+                        <index_products translate="label comment">
+                            <label>Index Products</label>
+                            <comment><![CDATA[<span style="color:red">Attention!</span> Thousands of products will drastically slow down performances.]]></comment>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>50</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                            <depends>
+                                <enable>1</enable>
+                            </depends>
+                        </index_products>
+                        <index_categories translate="label comment">
+                            <label>Index Categories</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>60</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                            <depends>
+                                <enable>1</enable>
+                            </depends>
+                        </index_categories>
+                        <index_customers translate="label comment">
+                            <label>Index Customers</label>
+                            <comment><![CDATA[<span style="color:red">Attention!</span> Thousands of customers will drastically slow down performances.]]></comment>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>70</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                            <depends>
+                                <enable>1</enable>
+                            </depends>
+                        </index_customers>
+                        <index_orders translate="label comment">
+                            <label>Index Orders</label>
+                            <comment><![CDATA[<span style="color:red">Attention!</span> Thousands of orders will drastically slow down performances.]]></comment>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>80</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                            <depends>
+                                <enable>1</enable>
+                            </depends>
+                        </index_orders>
+                        <index_attributes translate="label comment">
+                            <label>Index Product Attributes</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>90</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                            <depends>
+                                <enable>1</enable>
+                            </depends>
+                        </index_attributes>
+                        <index_promotions translate="label comment">
+                            <label>Index Promotions</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>100</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                            <depends>
+                                <enable>1</enable>
+                            </depends>
+                        </index_promotions>
+                    </fields>
+                </general>
+                <launcher translate="label comment">
+                    <label>Launcher Settings</label>
+                    <sort_order>20</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>0</show_in_website>
+                    <show_in_store>0</show_in_store>
+                    <fields>
+                        <min_chars translate="label comment">
+                            <label>Min Chars</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </min_chars>
+                        <max_results translate="label comment">
+                            <label>Max Results</label>
+                            <comment>0 or empty means unlimited.</comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </max_results>
+                        <hotkey translate="label comment">
+                            <label>Hotkey</label>
+                            <frontend_type>text</frontend_type>
+                            <comment><![CDATA[Code of keydown event needed, default is 32 (spacebar). <a href="http://www.w3.org/2002/09/tests/keys.html" target="_blank">List of key codes</a>]]></comment>
+                            <sort_order>30</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </hotkey>
+                        <reset_on_hide translate="label comment">
+                            <label>Reset On Hide</label>
+                            <comment>Reset input field when launcher disappears.</comment>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>40</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </reset_on_hide>
+                        <use_scope translate="label comment">
+                            <label>Use Scope</label>
+                            <comment>Allow to scope search with predefined scopes (config, menu, product, ...).</comment>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>50</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </use_scope>
+                        <show_icon translate="label comment">
+                            <label>Show Icon</label>
+                            <comment>Show icons in search results.</comment>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>60</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </show_icon>
+                        <show_scope translate="label comment">
+                            <label>Show Scope</label>
+                            <comment><![CDATA[Show scope in search results. For example: <strong>[Menu] Catalog > Manage Products</strong> becomes <strong>Catalog > Manage Products</strong> if disabled.]]></comment>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>70</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </show_scope>
+                        <show_text translate="label comment">
+                            <label>Show Text</label>
+                            <comment><![CDATA[Show text under title in search results. For example: <strong>Config > Developer > CSS Settings > Merge CSS Files</strong>.]]></comment>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>80</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </show_text>
+                    </fields>
+                </launcher>
+            </groups>
+        </bubble_launcher>
+    </sections>
+</config>
