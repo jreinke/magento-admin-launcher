@@ -26,3 +26,5 @@ or download package manually:
 * Download latest version [here](https://github.com/jreinke/magento-admin-launcher/archive/master.zip)
 * Unzip in Magento root folder
 * Clean cache
+
+Full overview available [here](http://bubbleco.de/en/2013/03/25/a-powerful-launcher-for-magento-admin-panel/)
