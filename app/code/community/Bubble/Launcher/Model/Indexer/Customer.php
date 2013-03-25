@@ -12,8 +12,9 @@ class Bubble_Launcher_Model_Indexer_Customer extends Bubble_Launcher_Model_Index
         $menuLabel = Mage::helper('adminhtml')->__('Manage Customers');
         foreach ($collection as $customer) {
             /** @var $order Mage_Customer_Model_Customer */
-            $title  = $customer->getName();
-            $text   = sprintf('%s > %s (%s)', $menuLabel , $customer->getName(), $customer->getEmail());
+            $name   = trim($customer->getFirstname() . ' ' . $customer->getLastname());
+            $title  = $name ? $name : $customer->getEmail();
+            $text   = sprintf('%s > %s (%s)', $menuLabel , $name, $customer->getEmail());
             $url    = $this->_getUrl('adminhtml/customer/edit', array('id' => $customer->getId()));
             $data[] = $this->_prepareData($title, $text, $url);
         }
