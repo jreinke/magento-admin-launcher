@@ -6,13 +6,14 @@
 * Quick access to the launcher via spacebar hotkey (customizable)
 * Fast search thanks to client-side indexation
 * Use scoped query with keyword auto-suggestion (e.g. config, menu, action)
-* Perform common actions such as "Clear Cache" or "Reindex All"
+* Perform quickly common tasks such as "Clear Cache" and "Reindex All"
 * Default indexers: menu, config, actions
 * Other available indexers (disabled by default): products, categories, customers, orders, promotions, attributes
+* Add your own logic easily by writing custom indexers and actions
 
 ## Installation
 
-### Magento CE 1.7.x
+### Magento CE 1.6.x, 1.7.x
 
 Install with [modgit](https://github.com/jreinke/modgit):
 
