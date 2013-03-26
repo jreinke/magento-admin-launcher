@@ -184,6 +184,9 @@ BubbleLauncher = Class.create({
         return this.suggester.value;
     },
     getScore: function(str, q) {
+        if (typeof str !== 'string' || typeof q !== 'string') {
+            return 0;
+        }
         str = str.trim().toLowerCase();
         q = q.trim().toLowerCase();
         var score = str.score(q);

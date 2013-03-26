@@ -50,9 +50,9 @@ abstract class Bubble_Launcher_Model_Indexer_Abstract extends Mage_Core_Model_Ab
     protected function _prepareData($title, $text, $url)
     {
         return array(
-            'title' => $title,
-            'text'  => $text,
-            'url'   => $url,
+            'title' => (string) $title,
+            'text'  => (string) $text,
+            'url'   => (string) $url,
         );
     }
 }
