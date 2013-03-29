@@ -187,12 +187,17 @@ BubbleLauncher = Class.create({
         if (typeof str !== 'string' || typeof q !== 'string') {
             return 0;
         }
-        str = str.trim().toLowerCase();
-        q = q.trim().toLowerCase();
-        var score = str.score(q);
-        if (str.indexOf(q) !== -1) {
-            score *= 1.1; // boost exact word match in string
+        str = str.trim().replace(/\s{2,}/g, ' ').toLowerCase();
+        q = q.trim().replace(/\s{2,}/g, ' ').toLowerCase();
+        if (str.length === 0 || q.length === 0) {
+            return 0;
         }
+        var score = str.score(q);
+        q.split(' ').each(function(word) {
+            if (str.indexOf(word) !== -1) {
+                score += 0.1; // boost exact word match in string
+            }
+        });
 
         return score;
     },
