@@ -10,6 +10,7 @@
     left: 50%;
     width: 500px;
     margin-left: -250px;
+    z-index: 10;
     background: #fff url(logo.png) no-repeat 468px 10px;
     border-radius: 15px;
     padding: 10px;

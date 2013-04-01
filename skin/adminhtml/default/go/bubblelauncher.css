@@ -1,0 +1,54 @@
+#nav li#bubblelauncher-status a {
+    width: 20px;
+    background: url(../default/images/bubblelauncher/status.png) no-repeat center 10px;
+}
+
+#nav li#bubblelauncher-status.on a {
+    background-position: center -30px;
+}
+
+#bubblelauncher-results ul.show-icon li a {
+    padding-left: 24px;
+    background-repeat: no-repeat;
+    background-position: 4px center;
+}
+
+#bubblelauncher-results ul.show-icon li.action a {
+    background-image: url(../default/images/bubblelauncher/fam/bullet_go.png);
+}
+
+#bubblelauncher-results ul.show-icon li.menu a {
+    background-image: url(../default/images/bubblelauncher/fam/application_cascade.png);
+}
+
+#bubblelauncher-results ul.show-icon li.config a {
+    background-image: url(../default/images/bubblelauncher/fam/cog.png);
+}
+
+#bubblelauncher-results ul.show-icon li.product a {
+    background-image: url(../default/images/bubblelauncher/fam/box.png);
+}
+
+#bubblelauncher-results ul.show-icon li.category a {
+    background-image: url(../default/images/bubblelauncher/fam/folder.png);
+}
+
+#bubblelauncher-results ul.show-icon li.attribute a {
+    background-image: url(../default/images/bubblelauncher/fam/rainbow.png);
+}
+
+#bubblelauncher-results ul.show-icon li.order a {
+    background-image: url(../default/images/bubblelauncher/fam/cart.png);
+}
+
+#bubblelauncher-results ul.show-icon li.customer a {
+    background-image: url(../default/images/bubblelauncher/fam/user.png);
+}
+
+#bubblelauncher-results ul.show-icon li.promo a {
+    background-image: url(../default/images/bubblelauncher/fam/money.png);
+}
+
+#bubblelauncher-results ul.show-icon li.group a {
+    background-image: url(../default/images/bubblelauncher/fam/group.png);
+}
