@@ -135,7 +135,7 @@
         <layout>
             <updates>
                 <bubble_launcher>
-                    <file>bubblelauncher.xml</file>
+                    <file>bubble/launcher.xml</file>
                 </bubble_launcher>
             </updates>
         </layout>
