@@ -6,7 +6,7 @@
 <?php if ($this->isEnabled()): ?>
     <script type="text/javascript">
         Event.observe(window, 'load', function() {
-            $('nav').insert('<li id="bubblelauncher-status"><a id="bubblelauncher-icon" href="http://bubbleco.de" target="_blank" title="BubbleCode"><span>&nbsp;</span></li>');
+            $('nav').insert('<li id="bubblelauncher-status"><a id="bubblelauncher-icon" href="http://www.bubblecode.net" target="_blank" title="BubbleCode"><span>&nbsp;</span></li>');
             var launcher = new BubbleLauncher({
                 dataLocation: '<?php echo $this->helper('adminhtml')->getUrl('adminhtml/bubble_launcher/index') ?>',
                 onReady: function() {

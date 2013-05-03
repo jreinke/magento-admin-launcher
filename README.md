@@ -27,4 +27,4 @@ or download package manually:
 * Unzip in Magento root folder
 * Clear cache
 
-Full overview available [here](http://bubbleco.de/en/2013/03/25/a-powerful-launcher-for-magento-admin-panel/).
+Full overview available [here](http://www.bubblecode.net/en/2013/03/25/a-powerful-launcher-for-magento-admin-panel/).
