@@ -20,7 +20,7 @@ class Bubble_Launcher_Model_Indexer_Config extends Bubble_Launcher_Model_Indexer
                 if (!$this->_isAllowed('system/config/' . $group)) {
                     continue;
                 }
-                $groupLabel = (string) $groupData['label'];
+                $groupLabel = (string) @$groupData['label'];
                 if (empty($groupLabel)) {
                     continue;
                 }
@@ -33,9 +33,9 @@ class Bubble_Launcher_Model_Indexer_Config extends Bubble_Launcher_Model_Indexer
                 $url        = $this->_getUrl('adminhtml/system_config/edit',
                     array('section' => $section, 'fieldset' => $fieldset));
                 $data[] = $this->_prepareData($title, $text, $url);
-                if ($groupData['fields']) {
+                if (isset($groupData['fields'])) {
                     foreach ($groupData['fields'] as $fieldData) {
-                        $fieldLabel = (string) $fieldData['label'];
+                        $fieldLabel = (string) @$fieldData['label'];
                         if (empty($fieldLabel)) {
                             continue;
                         }
