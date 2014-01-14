@@ -33,7 +33,7 @@ class Bubble_Launcher_Model_Indexer_Config extends Bubble_Launcher_Model_Indexer
                 $url        = $this->_getUrl('adminhtml/system_config/edit',
                     array('section' => $section, 'fieldset' => $fieldset));
                 $data[] = $this->_prepareData($title, $text, $url);
-                if (isset($groupData['fields'])) {
+                if (isset($groupData['fields']) && is_array($groupData['fields'])) {
                     foreach ($groupData['fields'] as $fieldData) {
                         $fieldLabel = (string) @$fieldData['label'];
                         if (empty($fieldLabel)) {
