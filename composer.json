@@ -1,0 +1,15 @@
+{
+    "name": "bubbleshop/admin-launcher",
+    "type": "magento-module",
+    "license":"OSL-3.0",
+    "description":"A powerful launcher for Magento admin panel",
+    "authors":[
+        {
+            "name":"Johann Reinke",
+            "homepage": "https://github.com/jreinke"
+        }
+    ],
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
