@@ -13,7 +13,7 @@
 
 ## Installation
 
-### Magento CE 1.6.x, 1.7.x
+### Magento CE 1.6.x, 1.7.x, 1.8.x, 1.9.x
 
 Install with [modgit](https://github.com/jreinke/modgit):
 

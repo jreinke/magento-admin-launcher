@@ -1,5 +1,10 @@
 <?php
-
+/**
+ * @category    Bubble
+ * @package     Bubble_Launcher
+ * @version     1.0.0
+ * @copyright   Copyright (c) 2014 BubbleShop (https://www.bubbleshop.net)
+ */
 class Bubble_Launcher_Adminhtml_Bubble_LauncherController extends Mage_Adminhtml_Controller_Action
 {
     protected $_publicActions = array('index');
