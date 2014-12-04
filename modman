@@ -1,0 +1,9 @@
+app/code/community/Bubble/Launcher                      app/code/community/Bubble/Launcher/
+app/design/adminhtml/base/default/layout/bubble         app/design/adminhtml/base/default/layout/bubble/
+app/design/adminhtml/base/default/template/bubble       app/design/adminhtml/base/default/template/bubble/
+app/etc/modules/Bubble_Launcher.xml                     app/etc/modules/Bubble_Launcher.xml
+app/locale/fr_FR/Bubble_Launcher.csv                    app/locale/fr_FR/Bubble_Launcher.csv
+js/bubblelauncher                                       js/bubblelauncher/
+skin/adminhtml/default/default/bubblelauncher.css       skin/adminhtml/default/default/bubblelauncher.css
+skin/adminhtml/default/default/images/bubblelauncher    skin/adminhtml/default/default/images/bubblelauncher/
+skin/adminhtml/default/go/bubblelauncher.css            skin/adminhtml/default/go/bubblelauncher.css

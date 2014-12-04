@@ -19,12 +19,18 @@ Install with [modgit](https://github.com/jreinke/modgit):
 
     $ cd /path/to/magento
     $ modgit init
-    $ modgit clone launcher https://github.com/jreinke/magento-admin-launcher.git
+    $ modgit clone launcher git@github.com:michaeltrimm/magento-admin-launcher.git
 
 or download package manually:
 
-* Download latest version [here](https://github.com/jreinke/magento-admin-launcher/archive/master.zip)
+* Download latest version [here](https://github.com/michaeltrimm/magento-admin-launcher/archive/master.zip)
 * Unzip in Magento root folder
 * Clear cache
 
 Full overview available [here](http://www.bubblecode.net/en/2013/03/25/a-powerful-launcher-for-magento-admin-panel/).
+
+Install with [Modman](https://github.com/colinmollenhour/modman)
+
+    $ cd /path/to/magento
+    $ modman init
+    $ modman clone git@github.com:michaeltrimm/magento-admin-launcher.git
