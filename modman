@@ -1,0 +1,9 @@
+app/code/community/Bubble/* 							app/code/community/Bubble/
+app/design/adminhtml/base/default/layout/bubble/* 		app/design/adminhtml/base/default/layout/bubble/
+app/design/adminhtml/base/default/template/bubble/* 	app/design/adminhtml/base/default/template/bubble/
+app/etc/modules/* 										app/etc/modules/
+app/locale/fr_FR/* 										app/locale/fr_FR/
+js/* 													js/
+skin/adminhtml/default/default/bubblelauncher.css 		skin/adminhtml/default/default/
+skin/adminhtml/default/default/images/* 				skin/adminhtml/default/default/images/
+skin/adminhtml/default/go/* 							skin/adminhtml/default/default/go/
