@@ -13,7 +13,7 @@ class Bubble_Launcher_Adminhtml_Bubble_LauncherController extends Mage_Adminhtml
     {
         $data = Mage::getSingleton('bubble_launcher/launcher')->getIndexData();
         $this->getResponse()
-            ->setHeader('Content-Type', 'application/json')
+            ->setHeader('Content-Type', 'application/json', true)
             ->setBody(json_encode($data))
             ->sendResponse();
         exit;
