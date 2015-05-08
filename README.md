@@ -28,3 +28,9 @@ or download package manually:
 * Clear cache
 
 Full overview available [here](http://www.bubblecode.net/en/2013/03/25/a-powerful-launcher-for-magento-admin-panel/).
+
+Install with [Modman](https://github.com/colinmollenhour/modman)
+
+    $ cd /path/to/magento
+    $ modman init
+    $ modman clone 
