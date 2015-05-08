@@ -5,8 +5,16 @@
     "description":"A powerful launcher for Magento admin panel",
     "authors":[
         {
-            "name":"Johann Reinke",
+            "name": "Johann Reinke",
             "homepage": "https://github.com/jreinke"
+        },
+        {
+            "name": "David Verholen",
+            "homepage": "https://github.com/davidverholen"
+        },
+        {
+            "name": "Frederik Winkelsdorf",
+            "homepage": "https://github.com/winkelsdorf"
         }
     ],
     "require": {
